@@ -13,15 +13,26 @@
       class="container"
       style="
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 100%;
+        height: 100vh;
+        width: 100vw;
       "
     >
-      <button style="margin: 10px">Button element</button>
-      <button class="button-primary" style="margin: 10px">
-        Button element
-      </button>
+      <div class="row">
+        <h1 style="text-align: center; padding-bottom: 8%">Bible Study App</h1>
+      </div>
+      <div class="row" style="text-align: center">
+        <div class="six columns">
+          <button style="width: 25em; height: 6em">Log In</button>
+        </div>
+        <div class="six columns">
+          <button class="button-primary" style="width: 25em; height: 6em">
+            Sign Up
+          </button>
+        </div>
+      </div>
     </div>
   </body>
 </html>
